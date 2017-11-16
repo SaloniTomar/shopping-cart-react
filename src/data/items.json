@@ -1,0 +1,56 @@
+[
+{
+"id": 0,
+"name": "Shirt",
+"price": 10,
+"description" : {
+    "material":"Cotton"
+},
+"imgSrc": "./images/shirt.jpg"
+},
+{
+"id": 1,
+"name": "Tank Top",
+"price": 7,
+"description" :  {
+    "material":"Viscose"
+},
+"imgSrc": "./images/tanktop.jpg"
+},
+{
+"id": 2,
+"name": "Trousers",
+"price": 5,
+"description" :  {
+    "material": "Polyester"
+},
+"imgSrc": "./images/trousers.jpg"
+},
+{
+"id": 3,
+"name": "T Shirt",
+"price": 5,
+"description" :  {
+    "material": "Rayon"
+},
+"imgSrc": "./images/tshirt.jpg"
+},
+{
+"id": 4,
+"name": "Frock",
+"price": 7,
+"description" :  {
+    "material": "Silk"
+},
+"imgSrc": "./images/frock.jpg"
+},
+{
+"id": 5,
+"name": "Boys' T-Shirt",
+"price": 8,
+"description" :  {
+    "material": "Cotton"
+},
+"imgSrc": "./images/boystshirt.jpg"
+}
+]
