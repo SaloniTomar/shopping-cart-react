@@ -2,7 +2,7 @@
 {
 "id": 0,
 "name": "Shirt",
-"price": 10,
+"price": 1500,
 "description" : {
     "material":"Cotton"
 },
@@ -11,7 +11,7 @@
 {
 "id": 1,
 "name": "Tank Top",
-"price": 7,
+"price": 700,
 "description" :  {
     "material":"Viscose"
 },
@@ -20,7 +20,7 @@
 {
 "id": 2,
 "name": "Trousers",
-"price": 5,
+"price": 2000,
 "description" :  {
     "material": "Polyester"
 },
@@ -29,7 +29,7 @@
 {
 "id": 3,
 "name": "T Shirt",
-"price": 5,
+"price": 500,
 "description" :  {
     "material": "Rayon"
 },
@@ -38,7 +38,7 @@
 {
 "id": 4,
 "name": "Frock",
-"price": 7,
+"price": 1000,
 "description" :  {
     "material": "Silk"
 },
@@ -47,7 +47,7 @@
 {
 "id": 5,
 "name": "Boys' T-Shirt",
-"price": 8,
+"price": 800,
 "description" :  {
     "material": "Cotton"
 },
