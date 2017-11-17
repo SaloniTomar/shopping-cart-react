@@ -15,3 +15,4 @@ function addedItems(state = [], action){
 }
 
 export default addedItems;
+
