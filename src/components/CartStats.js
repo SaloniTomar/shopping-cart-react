@@ -24,7 +24,7 @@ class CartStats extends Component{
 }
 function mapStateToProps(state){
     return {
-      items: state.items
+      items: state.addedItems
     };
 }
 
