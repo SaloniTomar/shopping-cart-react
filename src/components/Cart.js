@@ -9,10 +9,12 @@ class Cart extends Component{
                 <h4>Your Selected Items</h4>
                 <ul className='list-group'>
                     {
-                        this.props.items.map(item =>{
+                        this.props.addedItems.map(item =>{
                             return (
                                 <li key={item.id} className='list-group-item'>
-                                    <div className='list-item'>{item.name}</div>
+                                    <div className='list-item'><b>{item.name}</b></div><br/>
+                                    <div className='list-item'><b>Price :</b> Rs.{item.price}</div><br/>
+                                    <div className='list-item'><b>Material :</b>{item.description.material}</div>
                                     <div className='list-item right-button' onClick={()=> this.props.removeItemById(item.id)}>x</div>
                                 </li>
                             )
@@ -25,7 +27,7 @@ class Cart extends Component{
 }
 function mapStateToProps(state){
     return {
-        items: state.addedItems
+        addedItems: state.addedItems
     };
 }
 
